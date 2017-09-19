@@ -1,5 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import TextInputer from './TextInputer.js';
+import CatPicture from './CatPicture.js';
 
 export default class App extends React.Component {
   render() {
@@ -9,6 +11,8 @@ export default class App extends React.Component {
         <Text>This is my first React Native App</Text>
         <Text>SHAKE MEEEEE</Text>
         <Text>Jk. Please don't</Text>
+        <TextInputer />
+        <CatPicture />
       </View>
     );
   }
