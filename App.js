@@ -30,5 +30,7 @@ const styles = StyleSheet.create({
   },
   text: {
       color: 'purple',
+      border: 'solid',
+      borderColor: 'pink'
   },
 });
